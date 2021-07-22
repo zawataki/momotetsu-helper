@@ -4,19 +4,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        桃鉄ヘルパー for "桃太郎電鉄 ～昭和 平成 令和も定番！～"
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        桃鉄ヘルパー for <span className="App-title">桃太郎電鉄 ～昭和 平成 令和も定番！～</span>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        main part
+      </main>
+      <footer className="App-footer">
+        <p>このページのソースコードは
+          <a className="App-link"
+            href="https://github.com/zawataki/momotetsu-helper"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHubで公開しています
+          </a><br />
+          &copy; <a className="App-link"
+            href="https://github.com/zawataki"
+            target="_blank"
+            rel="noopener noreferrer">
+            Yuki Takizawa
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
